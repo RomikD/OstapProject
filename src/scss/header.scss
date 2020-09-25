@@ -1,38 +1,76 @@
 @import "mixins";
 @import "variables";
-
-.excel__header {
+ul{
+  margin: 0;
+}
+header {
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: $header-height;
-  padding: 8px 4px 0;
-  display: flex;
-  justify-content: space-between;
+  width: 100%;
+  z-index: 2;
+  .v-1110{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
-  .input {
-    margin: 0;
-    padding: 2px 7px;
-    min-width: 1px;
-    color: black;
-    border: 1px solid transparent;
-    border-radius: 2px;
-    height: 20px;
-    font-size: 18px;
-    line-height: 22px;
-    outline: none;
+    .logo{
+      font-style: normal;
+      font-weight: bold;
+      font-size: 25px;
+      line-height: 1.4;
+      color: #FFFFFF;
+      font-family: 'Quicksand', sans-serif;
+    }
+    .menu{
+      margin-left: auto;
 
-    &:hover {
-      border-color: $border-color;
+      ul{
+        display: flex;
+        li{
+          font-style: normal;
+          font-weight: bold;
+          font-size: 16px;
+          line-height: 1.4;
+          color: #ffffff;
+          padding: 0 24px;
+          list-style: none;
+          a{
+            text-decoration: none;
+            color: #ffffff;
+            padding: 28px 0;
+            display: block;
+          }
+          a:hover{
+            color: #8CB0FF;
+          }
+        }
+        li:hover{
+          color: #8CB0FF;
+        }
+      }
     }
 
-    &:focus {
-      border: 2px solid #1a73e8;
+    .button{
+      margin-left: 33px;
+      a{
+        background: #FFFFFF;
+        border: 1px solid #FFFFFF;
+        box-shadow: 0px 2px 30px rgba(255, 255, 255, 0.5);
+        border-radius: 100px;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 1.4;
+        text-align: center;
+        color: #00196C;
+        width: 99px;
+        height: 43px;
+        display: flex;
+        text-decoration: none;
+        justify-content: center;
+        align-items: center;
+      }
     }
   }
 
-  .button {
-    @include button(red)
-  }
 }
