@@ -3,8 +3,12 @@
 ul{
   margin: 0;
 }
-header {
+header.home-page{
+  background: transparent;
   position: absolute;
+}
+header {
+  background: #00196C;
   width: 100%;
   z-index: 2;
   .v-1110{
@@ -20,11 +24,17 @@ header {
       color: #FFFFFF;
       font-family: 'Quicksand', sans-serif;
     }
+    .toggle{
+      display: none;
+    }
     .menu{
       margin-left: auto;
 
       ul{
         display: flex;
+        li:hover ul{
+          display: flex;
+        }
         li{
           font-style: normal;
           font-weight: bold;
@@ -41,6 +51,32 @@ header {
           }
           a:hover{
             color: #8CB0FF;
+          }
+          ul:after{
+            content: '';
+            width: 10px;
+            height: 10px;
+            background: #ffffff;
+            top: -5px;
+            position: absolute;
+            transform: rotate(45deg);
+          }
+          ul{
+            display: none;
+            flex-direction: column;
+            background: #FFFFFF;
+            border-radius: 10px;
+            position: absolute;
+            padding: 25px 16px 22px 16px;
+
+            li{
+              padding: 0;
+            }
+            a{
+              color: #000000;
+              padding: 6px 0;
+            }
+
           }
         }
         li:hover{

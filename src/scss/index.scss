@@ -6,13 +6,23 @@
 @import "header";
 @import "footer";
 @import "home-page";
+@import "industries";
+@import "publisher";
+@import "liveCalls";
+@import "managedServices";
+@import "mobile";
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
+#real-demand-delivered img{
+  max-width: none;
+}
+img{
+  max-width: 100%;
+}
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 12px;
