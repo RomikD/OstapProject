@@ -1,0 +1,180 @@
+@import "mixins";
+@import "variables";
+
+
+#contact-us .v-1110 .info .one:nth-child(2) img, #contact-us .v-1110 .info  .one:nth-child(2) svg {
+  padding-top: 5px;
+}
+#contact-us{
+  background: #001869 url("../acetss/contact-back33.png")  no-repeat bottom;
+  background-size: contain;
+  padding: 150px 0 95px 0;
+
+  .v-1110{
+    display: flex;
+    justify-content: space-between;
+
+    h1{
+      font-style: normal;
+      font-weight: bold;
+      font-size: 51px;
+      line-height: 1.1;
+      color: #FFFFFF;
+      margin: 15px 0 30px 0;
+    }
+    .info{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: end;
+      max-width: 390px;
+
+      .one{
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        margin-bottom: 30px;
+
+        a, p{
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 1.4;
+          color: #FFFFFF;
+          text-decoration: none;
+          text-align: left;
+          margin: 0;
+        }
+
+        img, svg{
+          padding-top: 2px;
+          margin-right: 25px;
+        }
+      }
+    }
+    .follow-us{
+      max-width: 262px;
+      padding: 10px;
+     background: #0E236A;
+      border-radius: 8px;
+      .follow{
+        padding: 15px 0 ;
+        background: #1F3274;
+        border-radius: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        a{
+          text-decoration: none;
+          color: #ffffff;
+        }
+        p{
+          font-style: normal;
+          font-weight: bold;
+          font-size: 16px;
+          line-height: 143%;
+          color: #FFFFFF;
+          margin: 0;
+          padding: 0 16px;
+        }
+        img{
+          padding: 0 16px;
+        }
+      }
+    }
+
+    .form-b{
+      position: relative;
+      .form{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-right: 85px;
+
+
+        .form-text{
+          max-width: 342px;
+          margin: 0 auto;
+          display: flex;
+          flex-direction: column;
+          height: 100%;
+          width: 100%;
+          padding-top: 44px;
+
+          .title{
+            margin-left: 15px;
+          }
+          #information{
+            margin: 40px 15px 0 10px;
+          }
+          #submit{
+            margin-top: 25px;
+            input{
+              background: #B073FF;
+              border-radius: 100px;
+              width: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              font-style: normal;
+              font-weight: bold;
+              font-size: 19px;
+              line-height: 140%;
+              text-align: center;
+              color: #FFFFFF;
+              height: 61px;
+            }
+          }
+          label{
+            margin-bottom: 0;
+          }
+          p.title{
+            font-style: normal;
+            font-weight: normal;
+            font-size: 13px;
+            line-height: 177.5%;
+            color: #000000;
+            opacity: 0.45;
+            margin: 0 0 8px 0;
+          }
+          input{
+            width: 100%;
+            background: #F6F6F6;
+            border: 1px solid rgba(0, 0, 0, 0.03);
+            box-sizing: border-box;
+            border-radius: 5px;
+            padding: 0 20px;
+            height: 44px;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 177.5%;
+            color: #000000;
+          }
+        }
+        h3{
+          font-style: normal;
+          font-weight: bold;
+          font-size: 25px;
+          line-height: 160%;
+          color: #000000;
+          margin: 0 0 5px 0;
+        }
+        p.subtitle{
+          font-style: normal;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 130%;
+          color: #000000;
+          opacity: 0.8;
+        }
+
+      }
+    }
+  }
+}

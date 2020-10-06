@@ -2,17 +2,31 @@
 @import "variables";
 
 @media (max-width: 1500px){
-  #your-customer{
-    .info{
+  #your-customer {
+    .info {
       padding-bottom: 30px;
     }
-    .image img{
+
+    .image img {
       width: 750px;
     }
   }
 }
 
+
 @media (max-width: 1200px){
+  #managed-top .second {
+    max-width: none;
+    margin: 0 30px;
+  }
+  #managed-top .first svg{
+    max-width: 100%;
+    height: auto;
+  }
+  #live-leads_top {
+    max-width: none;
+    margin: 0 30px;
+  }
   #publisher-lab .first-b {
     margin-bottom: 125px;
   }
@@ -96,7 +110,17 @@
   }
 }
 @media (max-width: 1100px){
-  #publisher-lab .first-b {
+  #managed-top {
+    padding: 110px 0 100px 0;
+  }
+  #managed-top .first {
+    max-width: none;
+    margin: 0 30px 45px 30px;
+  }
+  #live-leads_top {
+    padding: 90px 0;
+  }
+    #publisher-lab .first-b {
     margin-bottom: 55px;
   }
   #real-demand-delivered {
@@ -121,13 +145,13 @@
   #publisher-lab span, header .v-1110 .menu ul li, header .v-1110 .button a, .one-icon-block .content p, footer .last-block p.all-r-r, footer .last-block .privacy, #industries_top .text-block span, #industries_info .v-1110 .industries_info_text p.subtitle, #industries_services .industries_services p, #industries_info .v-1110 .icons-info .one-icon-info p{
     font-size: 15px;
   }
-  #publisher-lab h1, #your-customer .info .v-1110 h1, h2, #how-we-do h2, #industries_top .text-block h1, #industries_top_p .text-block h1, #ready_to_scale h2, #ready_to_scale_p h2, #industries_info .v-1110 .industries_info_text h1, #industries_services h2{
+  #managed-top .text-block h1, #live-leads-items h2, #live-leads_top .text-block h1, #live-calls_top .text-block h1, #live-calls_top .text-block h1, #publisher-lab h1, #your-customer .info .v-1110 h1, h2, #how-we-do h2, #industries_top .text-block h1, #industries_top_p .text-block h1, #ready_to_scale h2, #ready_to_scale_p h2, #industries_info .v-1110 .industries_info_text h1, #industries_services h2{
     font-size: 43px;
   }
-  #publisher-lab .second-b .text-block .one-item p, #publisher-lab .second-b .text-block a, #publisher-lab p, #we-do .icons-block .one-icon-block h3,  #your-customer .info .v-1110 p, #real-demand-delivered .info .text p, #industries_top_p .text-block a, #industries_top_p .text-block p, #industries_top .text-block a, #industries_top .text-block p, #industries_services .industries_services h4, #ready_to_scale a, #ready_to_scale_p a{
+  #managed-top .second .text-block p.blue, #managed-top .text-block a, #managed-top .first .text-block p, #ready_to_scale_l a, #live-leads_top .text-block p, #live-leads_top .text-block a, #live-calls_top .text-block p, #live-calls_top .text-block a, #live-calls_top .first .text-block p, #publisher-lab .second-b .text-block .one-item p, #publisher-lab .second-b .text-block a, #publisher-lab p, #we-do .icons-block .one-icon-block h3,  #your-customer .info .v-1110 p, #real-demand-delivered .info .text p, #industries_top_p .text-block a, #industries_top_p .text-block p, #industries_top .text-block a, #industries_top .text-block p, #industries_services .industries_services h4, #ready_to_scale a, #ready_to_scale_p a{
     font-size: 17px;
   }
-  #publisher-cases .use-cases .one-case .info p, #we-do .icons-block .one-icon-block p, #your-customer .info .v-1110 .buttons a, #industries .industries-text p, #industries .industries-items .one-item h4, footer .contacts-info .one p, footer .contacts-info .button-contact-us a, footer .menus-block .menus li, footer .menus-block .menus h5{
+  #managed-top .second .text-block .one p, #managed-top .text-block span, #live-leads-items .l-l-items .one-l-l p, #live-leads_top .text-block span, #live-calls_top .text-block p.sub, #live-calls_top .text-block span, #live-calls_top .text-block span, #publisher-cases .use-cases .one-case .info p, #we-do .icons-block .one-icon-block p, #your-customer .info .v-1110 .buttons a, #industries .industries-text p, #industries .industries-items .one-item h4, footer .contacts-info .one p, footer .contacts-info .button-contact-us a, footer .menus-block .menus li, footer .menus-block .menus h5{
     font-size: 15px;
   }
   .one-icon-block .content h3{
@@ -136,6 +160,16 @@
 
 }
 @media (max-width: 991px){
+  #managed-top .text-block {
+    margin-left: 45px;
+    max-width: 400px;
+  }
+  #live-leads-items .l-l-items {
+    max-width: none;
+  }
+  #live-leads-items {
+    margin: 0 30px 90px 30px;
+  }
   #publisher-cases .title h3, #publisher-cases .use-cases .one-case .info h3{
     font-size: 22px;
   }
@@ -268,6 +302,97 @@
   }
 }
 @media (max-width: 900px) {
+  #managed-top .second .icons p{
+    text-align: left;
+  }
+  #managed-top .second .text-block .one {
+    align-items: center;
+  }
+  #managed-top .second .text-block {
+    max-width: none;
+  }
+  #managed-top .second .text-block {
+    margin-bottom: 10px;
+  }
+    #managed-top .second {
+    flex-direction: column;
+  }
+  #managed-top .first {
+    flex-direction: column-reverse;
+  }
+  #managed-top {
+    padding: 70px 0;
+  }
+  #managed-top .text-block a {
+    margin-top: 27px;
+  }
+  #managed-top .text-block {
+    margin-bottom: 40px;
+    margin-left: 0;
+    max-width: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #live-leads_top .text-block h1,  #live-leads_top .text-block p, #managed-top .text-block p, #managed-top .text-block h1{
+    text-align: center;
+  }
+  #ready_to_scale_l h2{
+    font-size: 30px;
+  }
+  #live-leads_top .text-block {
+    margin-left: 0;
+    max-width: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  #live-leads_top {
+    padding: 70px 0 50px 0;
+  }
+  #live-leads_top .text-block p{
+    text-align: center;
+  }
+  #live-leads_top .text-block a {
+    margin-top: 27px;
+  }
+  #live-leads_top {
+    flex-direction: column-reverse;
+  }
+  #live-calls_top {
+    padding: 70px 0;
+  }
+  #live-calls_top .text-block {
+    margin-left: 0;
+    max-width: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  #live-calls_top .first {
+    margin-bottom: 65px;
+  }
+  #live-calls_top .second .text-block {
+    margin-left: 0;
+    max-width: 500px;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+  #live-calls_top .second {
+    flex-direction: column;
+  }
+  #live-calls_top .first .text-block p, #live-calls_top .first .text-block h1{
+    text-align: center;
+  }
+  #live-calls_top .first {
+    flex-direction: column-reverse;
+  }
+
   #industries_top_p .img-block {
     width: 90%;
   }
@@ -315,13 +440,13 @@
   #publisher-lab span, header .v-1110 .menu ul li, header .v-1110 .button a, .one-icon-block .content p, footer .last-block p.all-r-r, footer .last-block .privacy, #industries_top .text-block span, #industries_top_p .text-block span, #industries_info .v-1110 .industries_info_text p.subtitle, #industries_services .industries_services p, #industries_info .v-1110 .icons-info .one-icon-info p{
     font-size: 14px;
   }
-  #publisher-lab h1, #your-customer .info .v-1110 h1, h2, #how-we-do h2, #industries_top .text-block h1, #industries_top_p .text-block h1, #ready_to_scale h2, #ready_to_scale_p h2, #industries_info .v-1110 .industries_info_text h1, #industries_services h2{
+  #managed-top .text-block h1, #live-leads-items h2, #live-leads_top .text-block h1, #live-calls_top .text-block h1, #publisher-lab h1, #your-customer .info .v-1110 h1, h2, #how-we-do h2, #industries_top .text-block h1, #industries_top_p .text-block h1, #ready_to_scale h2, #ready_to_scale_p h2, #industries_info .v-1110 .industries_info_text h1, #industries_services h2{
     font-size: 36px;
   }
-  #publisher-lab .second-b .text-block .one-item p, #publisher-lab .second-b .text-block a, #publisher-lab p, #we-do .icons-block .one-icon-block h3,  #your-customer .info .v-1110 p, #real-demand-delivered .info .text p, #industries_top_p .text-block a, #industries_top_p .text-block p, #industries_top .text-block a, #industries_top .text-block p, #industries_services .industries_services h4, #ready_to_scale a, #ready_to_scale_p a{
+  #managed-top .second .text-block p.blue, #managed-top .text-block a, #managed-top .first .text-block p, #ready_to_scale_l a, #live-leads_top .text-block p, #live-leads_top .text-block a, #live-calls_top .text-block p, #live-calls_top .text-block a, #live-calls_top .first .text-block p, #publisher-lab .second-b .text-block .one-item p, #publisher-lab .second-b .text-block a, #publisher-lab p, #we-do .icons-block .one-icon-block h3,  #your-customer .info .v-1110 p, #real-demand-delivered .info .text p, #industries_top_p .text-block a, #industries_top_p .text-block p, #industries_top .text-block a, #industries_top .text-block p, #industries_services .industries_services h4, #ready_to_scale a, #ready_to_scale_p a{
     font-size: 16px;
   }
-  #publisher-cases .use-cases .one-case .info p, #we-do .icons-block .one-icon-block p, #your-customer .info .v-1110 .buttons a, #industries .industries-text p, #industries .industries-items .one-item h4, footer .contacts-info .one p, footer .contacts-info .button-contact-us a, footer .menus-block .menus li, footer .menus-block .menus h5{
+  #managed-top .second .text-block .one p, #managed-top .text-block span, #live-leads-items .l-l-items .one-l-l p, #live-leads_top .text-block span, #live-calls_top .text-block p.sub, #live-calls_top .text-block span, #publisher-cases .use-cases .one-case .info p, #we-do .icons-block .one-icon-block p, #your-customer .info .v-1110 .buttons a, #industries .industries-text p, #industries .industries-items .one-item h4, footer .contacts-info .one p, footer .contacts-info .button-contact-us a, footer .menus-block .menus li, footer .menus-block .menus h5{
     font-size: 14px;
   }
   .one-icon-block .content h3{
@@ -506,6 +631,9 @@
 }
 
 @media (max-width: 700px) {
+  #live-leads-items .l-l-items {
+    grid-template-columns: repeat(2, 1fr);
+  }
   #publisher-cases .use-cases .one-case:nth-child(2){
     margin-top: 110px;
   }
@@ -656,6 +784,70 @@
   }
 }
 @media (max-width: 500px) {
+  #managed-top .first {
+    margin: 0 15px 35px 15px;
+  }
+  #managed-top .second{
+    margin: 0 15px;
+  }
+  #managed-top {
+    padding: 40px 0;
+  }
+  #managed-top .text-block a {
+    margin-top: 10px;
+  }
+  #managed-top .text-block h1 {
+    margin-bottom: 14px;
+  }
+
+  #live-leads_top {
+    margin: 0 15px;
+  }
+  #ready_to_scale_l h2 {
+    font-size: 26px;
+  }
+  #live-leads-items .l-l-items {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #live-leads-items .l-l-items .one-l-l {
+    justify-content: end;
+  }
+  #live-leads_top {
+    padding: 40px 0 35px 0;
+  }
+  #live-leads_top .text-block h1 {
+    margin-bottom: 20px;
+  }
+  #live-leads_top .text-block a {
+    margin-top: 10px;
+  }
+  #live-leads-items h2 {
+    margin: 0 0 30px 0;
+  }
+  #live-leads-items {
+    margin: 0 15px 50px 15px;
+  }
+  #live-leads-items .l-l-items {
+    max-width: 380px;
+  }
+  #live-calls_top {
+    padding: 40px 0 20px 0;
+  }
+  #live-calls_top .text-block {
+    margin-bottom: 35px;
+  }
+  #live-calls_top .text-block a {
+    margin-top: 17px;
+  }
+  #live-calls_top .text-block h1 {
+    margin-bottom: 15px;
+  }
+  #live-calls_top .first {
+    margin-bottom: 45px;
+  }
+  #live-calls_top .second .text-block {
+    margin-bottom: 15px;
+  }
   #publisher-cases {
     margin: 0 30px 70px 30px;
   }
@@ -782,13 +974,13 @@
   #publisher-lab span, header .v-1110 .menu ul li, header .v-1110 .button a, .one-icon-block .content p, footer .last-block p.all-r-r, footer .last-block .privacy, #industries_top_p .text-block span, #industries_top .text-block span, #industries_info .v-1110 .industries_info_text p.subtitle, #industries_services .industries_services p, #industries_info .v-1110 .icons-info .one-icon-info p{
     font-size: 13px;
   }
-  #publisher-lab h1,   #your-customer .info .v-1110 h1, h2, #how-we-do h2, #industries_top .text-block h1, #industries_top_p .text-block h1, #ready_to_scale h2, #ready_to_scale_p h2, #industries_info .v-1110 .industries_info_text h1, #industries_services h2{
+  #managed-top .text-block h1,  #live-leads_top .text-block h1, #live-calls_top .text-block h1,  #publisher-lab h1,   #your-customer .info .v-1110 h1, h2, #how-we-do h2, #industries_top .text-block h1, #industries_top_p .text-block h1, #ready_to_scale h2, #ready_to_scale_p h2, #industries_info .v-1110 .industries_info_text h1, #industries_services h2{
     font-size: 32px;
   }
-  #publisher-lab .second-b .text-block .one-item p, #publisher-lab .second-b .text-block a, #publisher-lab p, #we-do .icons-block .one-icon-block h3,  #your-customer .info .v-1110 p, #real-demand-delivered .info .text p, #industries_top_p .text-block a, #industries_top_p .text-block p, #industries_top .text-block a, #industries_top .text-block p, #industries_services .industries_services h4, #ready_to_scale a, #ready_to_scale_p a{
+  #managed-top .second .text-block p.blue, #managed-top .text-block a, #managed-top .first .text-block p, #ready_to_scale_l a, #live-leads_top .text-block p, #live-leads_top .text-block a,  #live-calls_top .text-block p, #live-calls_top .text-block a, #live-calls_top .first .text-block p, #publisher-lab .second-b .text-block .one-item p, #publisher-lab .second-b .text-block a, #publisher-lab p, #we-do .icons-block .one-icon-block h3,  #your-customer .info .v-1110 p, #real-demand-delivered .info .text p, #industries_top_p .text-block a, #industries_top_p .text-block p, #industries_top .text-block a, #industries_top .text-block p, #industries_services .industries_services h4, #ready_to_scale a, #ready_to_scale_p a{
     font-size: 15px;
   }
-  #publisher-cases .use-cases .one-case .info p, #we-do .icons-block .one-icon-block p, #your-customer .info .v-1110 .buttons a, #industries .industries-text p, #industries .industries-items .one-item h4, footer .contacts-info .one p, footer .contacts-info .button-contact-us a, footer .menus-block .menus li, footer .menus-block .menus h5{
+  #managed-top .second .text-block .one p, #managed-top .text-block span, #live-leads-items .l-l-items .one-l-l p, #live-leads_top .text-block span, #live-calls_top .text-block p.sub, #live-calls_top .text-block span, #publisher-cases .use-cases .one-case .info p, #we-do .icons-block .one-icon-block p, #your-customer .info .v-1110 .buttons a, #industries .industries-text p, #industries .industries-items .one-item h4, footer .contacts-info .one p, footer .contacts-info .button-contact-us a, footer .menus-block .menus li, footer .menus-block .menus h5{
     font-size: 13px;
   }
   .one-icon-block .content h3{
@@ -853,13 +1045,13 @@
   #publisher-lab span, header .v-1110 .menu ul li, header .v-1110 .button a, .one-icon-block .content p, #industries_top .text-block span, #industries_top_p .text-block span, #industries_info .v-1110 .industries_info_text p.subtitle, #industries_services .industries_services p, #industries_info .v-1110 .icons-info .one-icon-info p{
     font-size: 12px;
   }
-  #publisher-lab h1, #your-customer .info .v-1110 h1, h2, #how-we-do h2, #industries_top .text-block h1, #industries_top_p .text-block h1, #ready_to_scale h2, #ready_to_scale_p h2, #industries_info .v-1110 .industries_info_text h1, #industries_services h2{
+  #managed-top .text-block h1, #live-leads-items h2, #live-leads_top .text-block h1, #live-calls_top .text-block h1,  #publisher-lab h1, #your-customer .info .v-1110 h1, h2, #how-we-do h2, #industries_top .text-block h1, #industries_top_p .text-block h1, #ready_to_scale h2, #ready_to_scale_p h2, #industries_info .v-1110 .industries_info_text h1, #industries_services h2{
     font-size: 26px;
   }
-  #publisher-lab .second-b .text-block .one-item p, #publisher-lab .second-b .text-block a, #publisher-lab p, #we-do .icons-block .one-icon-block h3,  #your-customer .info .v-1110 p, #real-demand-delivered .info .text p, #industries_top_p .text-block a, #industries_top_p .text-block p, #industries_top .text-block a, #industries_top .text-block p, #industries_services .industries_services h4, #ready_to_scale_p a, #ready_to_scale a{
+  #managed-top .second .text-block p.blue, #managed-top .text-block a, #managed-top .first .text-block p, #ready_to_scale_l a, #live-leads_top .text-block p, #live-leads_top .text-block a, #live-calls_top .text-block p, #live-calls_top .text-block a, #live-calls_top .first .text-block p, #publisher-lab .second-b .text-block .one-item p, #publisher-lab .second-b .text-block a, #publisher-lab p, #we-do .icons-block .one-icon-block h3,  #your-customer .info .v-1110 p, #real-demand-delivered .info .text p, #industries_top_p .text-block a, #industries_top_p .text-block p, #industries_top .text-block a, #industries_top .text-block p, #industries_services .industries_services h4, #ready_to_scale_p a, #ready_to_scale a{
     font-size: 14px;
   }
-  #publisher-cases .use-cases .one-case .info p, #we-do .icons-block .one-icon-block p, #your-customer .info .v-1110 .buttons a, #industries .industries-text p, #industries .industries-items .one-item h4, footer .contacts-info .one p, footer .contacts-info .button-contact-us a, footer .menus-block .menus li, footer .menus-block .menus h5{
+  #managed-top .second .text-block .one p, #managed-top .text-block span, #live-leads-items .l-l-items .one-l-l p, #live-leads_top .text-block span, #live-calls_top .text-block p.sub, #live-calls_top .text-block span,  #publisher-cases .use-cases .one-case .info p, #we-do .icons-block .one-icon-block p, #your-customer .info .v-1110 .buttons a, #industries .industries-text p, #industries .industries-items .one-item h4, footer .contacts-info .one p, footer .contacts-info .button-contact-us a, footer .menus-block .menus li, footer .menus-block .menus h5{
     font-size: 12px;
   }
   .one-icon-block .content h3{
