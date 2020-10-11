@@ -15,6 +15,13 @@
 
 
 @media (max-width: 1200px){
+  #contact-us .v-1110 .contacts-info{
+    padding-right: 15px;
+  }
+  #saas-top .first {
+    max-width: none;
+    margin: 0 30px 30px 30px;
+  }
   #managed-top .second {
     max-width: none;
     margin: 0 30px;
@@ -110,6 +117,19 @@
   }
 }
 @media (max-width: 1100px){
+  #contact-us {
+    padding: 100px 0 85px 0;
+  }
+  #saas-items .saas-items-b {
+    max-width: none;
+  }
+  #saas-items{
+    margin: 90px 30px 70px 30px;
+  }
+
+  #saas-top {
+    padding: 90px 0 70px 0;
+  }
   #managed-top {
     padding: 110px 0 100px 0;
   }
@@ -145,13 +165,13 @@
   #publisher-lab span, header .v-1110 .menu ul li, header .v-1110 .button a, .one-icon-block .content p, footer .last-block p.all-r-r, footer .last-block .privacy, #industries_top .text-block span, #industries_info .v-1110 .industries_info_text p.subtitle, #industries_services .industries_services p, #industries_info .v-1110 .icons-info .one-icon-info p{
     font-size: 15px;
   }
-  #managed-top .text-block h1, #live-leads-items h2, #live-leads_top .text-block h1, #live-calls_top .text-block h1, #live-calls_top .text-block h1, #publisher-lab h1, #your-customer .info .v-1110 h1, h2, #how-we-do h2, #industries_top .text-block h1, #industries_top_p .text-block h1, #ready_to_scale h2, #ready_to_scale_p h2, #industries_info .v-1110 .industries_info_text h1, #industries_services h2{
+  #contact-us .v-1110 h1, #saas-items h2, #we-do-saas h2, #saas-top .text-block h1, #managed-top .text-block h1, #live-leads-items h2, #live-leads_top .text-block h1, #live-calls_top .text-block h1, #live-calls_top .text-block h1, #publisher-lab h1, #your-customer .info .v-1110 h1, h2, #how-we-do h2, #industries_top .text-block h1, #industries_top_p .text-block h1, #ready_to_scale h2, #ready_to_scale_p h2, #industries_info .v-1110 .industries_info_text h1, #industries_services h2{
     font-size: 43px;
   }
-  #managed-top .second .text-block p.blue, #managed-top .text-block a, #managed-top .first .text-block p, #ready_to_scale_l a, #live-leads_top .text-block p, #live-leads_top .text-block a, #live-calls_top .text-block p, #live-calls_top .text-block a, #live-calls_top .first .text-block p, #publisher-lab .second-b .text-block .one-item p, #publisher-lab .second-b .text-block a, #publisher-lab p, #we-do .icons-block .one-icon-block h3,  #your-customer .info .v-1110 p, #real-demand-delivered .info .text p, #industries_top_p .text-block a, #industries_top_p .text-block p, #industries_top .text-block a, #industries_top .text-block p, #industries_services .industries_services h4, #ready_to_scale a, #ready_to_scale_p a{
+  #we-do-saas .icons-block .one-icon-block h3, #saas-top .text-block a, #saas-top .first .text-block p, #managed-top .second .text-block p.blue, #managed-top .text-block a, #managed-top .first .text-block p, #ready_to_scale_l a, #live-leads_top .text-block p, #live-leads_top .text-block a, #live-calls_top .text-block p, #live-calls_top .text-block a, #live-calls_top .first .text-block p, #publisher-lab .second-b .text-block .one-item p, #publisher-lab .second-b .text-block a, #publisher-lab p, #we-do .icons-block .one-icon-block h3,  #your-customer .info .v-1110 p, #real-demand-delivered .info .text p, #industries_top_p .text-block a, #industries_top_p .text-block p, #industries_top .text-block a, #industries_top .text-block p, #industries_services .industries_services h4, #ready_to_scale a, #ready_to_scale_p a{
     font-size: 17px;
   }
-  #managed-top .second .text-block .one p, #managed-top .text-block span, #live-leads-items .l-l-items .one-l-l p, #live-leads_top .text-block span, #live-calls_top .text-block p.sub, #live-calls_top .text-block span, #live-calls_top .text-block span, #publisher-cases .use-cases .one-case .info p, #we-do .icons-block .one-icon-block p, #your-customer .info .v-1110 .buttons a, #industries .industries-text p, #industries .industries-items .one-item h4, footer .contacts-info .one p, footer .contacts-info .button-contact-us a, footer .menus-block .menus li, footer .menus-block .menus h5{
+  #contact-us .v-1110 .follow-us .follow p, #contact-us .v-1110 .info .one a, #contact-us .v-1110 .info .one p, #saas-items .saas-items-b .s-one-item p, #saas-top .text-block span, #managed-top .second .text-block .one p, #managed-top .text-block span, #live-leads-items .l-l-items .one-l-l p, #live-leads_top .text-block span, #live-calls_top .text-block p.sub, #live-calls_top .text-block span, #live-calls_top .text-block span, #publisher-cases .use-cases .one-case .info p, #we-do .icons-block .one-icon-block p, #your-customer .info .v-1110 .buttons a, #industries .industries-text p, #industries .industries-items .one-item h4, footer .contacts-info .one p, footer .contacts-info .button-contact-us a, footer .menus-block .menus li, footer .menus-block .menus h5{
     font-size: 15px;
   }
   .one-icon-block .content h3{
@@ -160,6 +180,9 @@
 
 }
 @media (max-width: 991px){
+  #saas-items .saas-items-b {
+    grid-column-gap: 30px;
+  }
   #managed-top .text-block {
     margin-left: 45px;
     max-width: 400px;
@@ -301,7 +324,58 @@
     }
   }
 }
+
+@media (max-width: 950px) {
+  #contact-us .v-1110 .contacts-info{
+    padding-right: 0;
+  }
+  #contact-us .v-1110 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #contact-us .v-1110 .info {
+    max-width: 500px;
+  }
+  #contact-us .v-1110 h1 {
+    text-align: center;
+  }
+  #contact-us .v-1110 .follow-us{
+    margin: 0 auto;
+  }
+  #contact-us  .contacts-info{
+    margin-bottom: 40px;
+  }
+  #contact-us {
+    padding: 40px 0 35px 0;
+  }
+}
 @media (max-width: 900px) {
+  #saas-items .saas-items-b {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  #saas-top .first {
+    flex-direction: column-reverse;
+  }
+  #saas-top .text-block {
+    margin-left: 0;
+    max-width: none;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #saas-top .text-block a {
+    margin-top: 27px;
+  }
+  #saas-top {
+    padding: 70px 0 50px 0;
+  }
+  #saas-top .text-block h1, #saas-top .text-block p{
+    text-align: center;
+  }
   #managed-top .second .icons p{
     text-align: left;
   }
@@ -440,13 +514,13 @@
   #publisher-lab span, header .v-1110 .menu ul li, header .v-1110 .button a, .one-icon-block .content p, footer .last-block p.all-r-r, footer .last-block .privacy, #industries_top .text-block span, #industries_top_p .text-block span, #industries_info .v-1110 .industries_info_text p.subtitle, #industries_services .industries_services p, #industries_info .v-1110 .icons-info .one-icon-info p{
     font-size: 14px;
   }
-  #managed-top .text-block h1, #live-leads-items h2, #live-leads_top .text-block h1, #live-calls_top .text-block h1, #publisher-lab h1, #your-customer .info .v-1110 h1, h2, #how-we-do h2, #industries_top .text-block h1, #industries_top_p .text-block h1, #ready_to_scale h2, #ready_to_scale_p h2, #industries_info .v-1110 .industries_info_text h1, #industries_services h2{
+  #contact-us .v-1110 h1, #saas-items h2, #we-do-saas h2, #saas-top .text-block h1, #managed-top .text-block h1, #live-leads-items h2, #live-leads_top .text-block h1, #live-calls_top .text-block h1, #publisher-lab h1, #your-customer .info .v-1110 h1, h2, #how-we-do h2, #industries_top .text-block h1, #industries_top_p .text-block h1, #ready_to_scale h2, #ready_to_scale_p h2, #industries_info .v-1110 .industries_info_text h1, #industries_services h2{
     font-size: 36px;
   }
-  #managed-top .second .text-block p.blue, #managed-top .text-block a, #managed-top .first .text-block p, #ready_to_scale_l a, #live-leads_top .text-block p, #live-leads_top .text-block a, #live-calls_top .text-block p, #live-calls_top .text-block a, #live-calls_top .first .text-block p, #publisher-lab .second-b .text-block .one-item p, #publisher-lab .second-b .text-block a, #publisher-lab p, #we-do .icons-block .one-icon-block h3,  #your-customer .info .v-1110 p, #real-demand-delivered .info .text p, #industries_top_p .text-block a, #industries_top_p .text-block p, #industries_top .text-block a, #industries_top .text-block p, #industries_services .industries_services h4, #ready_to_scale a, #ready_to_scale_p a{
+  #we-do-saas .icons-block .one-icon-block h3, #saas-top .text-block a, #saas-top .first .text-block p, #managed-top .second .text-block p.blue, #managed-top .text-block a, #managed-top .first .text-block p, #ready_to_scale_l a, #live-leads_top .text-block p, #live-leads_top .text-block a, #live-calls_top .text-block p, #live-calls_top .text-block a, #live-calls_top .first .text-block p, #publisher-lab .second-b .text-block .one-item p, #publisher-lab .second-b .text-block a, #publisher-lab p, #we-do .icons-block .one-icon-block h3,  #your-customer .info .v-1110 p, #real-demand-delivered .info .text p, #industries_top_p .text-block a, #industries_top_p .text-block p, #industries_top .text-block a, #industries_top .text-block p, #industries_services .industries_services h4, #ready_to_scale a, #ready_to_scale_p a{
     font-size: 16px;
   }
-  #managed-top .second .text-block .one p, #managed-top .text-block span, #live-leads-items .l-l-items .one-l-l p, #live-leads_top .text-block span, #live-calls_top .text-block p.sub, #live-calls_top .text-block span, #publisher-cases .use-cases .one-case .info p, #we-do .icons-block .one-icon-block p, #your-customer .info .v-1110 .buttons a, #industries .industries-text p, #industries .industries-items .one-item h4, footer .contacts-info .one p, footer .contacts-info .button-contact-us a, footer .menus-block .menus li, footer .menus-block .menus h5{
+  #contact-us .v-1110 .follow-us .follow p, #contact-us .v-1110 .info .one a, #contact-us .v-1110 .info .one p, #saas-items .saas-items-b .s-one-item p, #saas-top .text-block span, #managed-top .second .text-block .one p, #managed-top .text-block span, #live-leads-items .l-l-items .one-l-l p, #live-leads_top .text-block span, #live-calls_top .text-block p.sub, #live-calls_top .text-block span, #publisher-cases .use-cases .one-case .info p, #we-do .icons-block .one-icon-block p, #your-customer .info .v-1110 .buttons a, #industries .industries-text p, #industries .industries-items .one-item h4, footer .contacts-info .one p, footer .contacts-info .button-contact-us a, footer .menus-block .menus li, footer .menus-block .menus h5{
     font-size: 14px;
   }
   .one-icon-block .content h3{
@@ -609,6 +683,16 @@
   }
 }
 @media (max-width: 750px) {
+  #we-do-saas .icons-block {
+    grid-gap: 40px;
+  }
+  #we-do-saas .icons-block .one-icon-block .icon {
+    height: 130px;
+    width: 130px;
+  }
+  #we-do-saas .icons-block .one-icon-block .icon img{
+    max-height: 70px;
+  }
   footer .menus-block {
     margin: 0 15px;
   }
@@ -631,6 +715,12 @@
 }
 
 @media (max-width: 700px) {
+  #saas-items h2 {
+    margin: 0 auto 55px auto;
+  }
+  #saas-items {
+    margin: 70px 30px 10px 30px;
+  }
   #live-leads-items .l-l-items {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -768,10 +858,15 @@
   }
 }
 @media (max-width: 600px) {
+  #contact-us .v-1110 .form-b .image img, #contact-us .v-1110 .form-b .image svg{
+    max-width: 100%;
+  }
+  #we-do-saas .icons-block {
+    grid-template-columns: repeat(2, 1fr);
+  }
   footer .menus-block .menus, footer .menus-block .contacts-info {
     width: 90%;
   }
-
     #we-do .icons-block .one-icon-block .icon {
     height: 130px;
     width: 130px;
@@ -783,7 +878,78 @@
     margin: 28px 0 10px 0;
   }
 }
+@media (max-width: 550px) {
+  #contact-us .v-1110 .form-b .form .form-text {
+    max-width: 300px;
+  }
+  #contact-us .v-1110 .form-b .form .form-text #information {
+    margin: 15px 15px 0 10px;
+  }
+  #contact-us .v-1110 .form-b .form .form-text .title {
+    margin-top: 15px;
+  }
+}
+
 @media (max-width: 500px) {
+  #contact-us .v-1110 .form-b .image img, #contact-us .v-1110 .form-b .image svg {
+    height: auto;
+  }
+  #contact-us {
+    padding: 20px 0 15px 0;
+  }
+  #contact-us .v-1110 .info{
+    margin: 0 15px;
+  }
+  #contact-us .v-1110 .form-b .form .form-text #submit input {
+    font-size: 17px;
+  }
+    #contact-us .v-1110 .form-b .form .form-text {
+    max-width: 270px;
+  }
+  #contact-us .v-1110 .form-b .form h3{
+    font-size: 21px;
+  }
+  #contact-us .v-1110 .form-b .form p.subtitle {
+    font-size: 14px;
+  }
+  #contact-us .v-1110 .form-b .form .form-text input {
+    padding: 0 10px;
+    font-size: 14px;
+  }
+
+  #contact-us .v-1110 .form-b .form .form-text #information .one-input p{
+    margin-bottom: 10px;
+  }
+  #contact-us .v-1110 .form-b .form .form-text {
+    padding-top: 34px;
+  }
+  #contact-us .v-1110 .form-b .form .form-text .title {
+    margin-top: 0;
+  }
+  #saas-items .saas-items-b .s-one-item {
+    margin-bottom: 25px;
+  }
+  #saas-items {
+    margin: 70px 15px 10px 15px;
+  }
+  #saas-items .saas-items-b {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #saas-top .first {
+    margin: 0 15px 30px 15px;
+  }
+  #saas-top {
+    padding: 40px 0 20px 0;
+  }
+  #saas-top .text-block h1 {
+    margin-bottom: 20px;
+  }
+  #saas-top .text-block a {
+     margin-top: 15px;
+   }
+  #we-do-saas {
+    padding: 55px 0 40px 0;
+  }
   #managed-top .first {
     margin: 0 15px 35px 15px;
   }
@@ -974,20 +1140,76 @@
   #publisher-lab span, header .v-1110 .menu ul li, header .v-1110 .button a, .one-icon-block .content p, footer .last-block p.all-r-r, footer .last-block .privacy, #industries_top_p .text-block span, #industries_top .text-block span, #industries_info .v-1110 .industries_info_text p.subtitle, #industries_services .industries_services p, #industries_info .v-1110 .icons-info .one-icon-info p{
     font-size: 13px;
   }
-  #managed-top .text-block h1,  #live-leads_top .text-block h1, #live-calls_top .text-block h1,  #publisher-lab h1,   #your-customer .info .v-1110 h1, h2, #how-we-do h2, #industries_top .text-block h1, #industries_top_p .text-block h1, #ready_to_scale h2, #ready_to_scale_p h2, #industries_info .v-1110 .industries_info_text h1, #industries_services h2{
+  #contact-us .v-1110 h1, #saas-items h2, #we-do-saas h2, #saas-top .text-block h1, #managed-top .text-block h1,  #live-leads_top .text-block h1, #live-calls_top .text-block h1,  #publisher-lab h1,   #your-customer .info .v-1110 h1, h2, #how-we-do h2, #industries_top .text-block h1, #industries_top_p .text-block h1, #ready_to_scale h2, #ready_to_scale_p h2, #industries_info .v-1110 .industries_info_text h1, #industries_services h2{
     font-size: 32px;
   }
-  #managed-top .second .text-block p.blue, #managed-top .text-block a, #managed-top .first .text-block p, #ready_to_scale_l a, #live-leads_top .text-block p, #live-leads_top .text-block a,  #live-calls_top .text-block p, #live-calls_top .text-block a, #live-calls_top .first .text-block p, #publisher-lab .second-b .text-block .one-item p, #publisher-lab .second-b .text-block a, #publisher-lab p, #we-do .icons-block .one-icon-block h3,  #your-customer .info .v-1110 p, #real-demand-delivered .info .text p, #industries_top_p .text-block a, #industries_top_p .text-block p, #industries_top .text-block a, #industries_top .text-block p, #industries_services .industries_services h4, #ready_to_scale a, #ready_to_scale_p a{
+  #we-do-saas .icons-block .one-icon-block h3, #saas-top .text-block a, #saas-top .first .text-block p, #managed-top .second .text-block p.blue, #managed-top .text-block a, #managed-top .first .text-block p, #ready_to_scale_l a, #live-leads_top .text-block p, #live-leads_top .text-block a,  #live-calls_top .text-block p, #live-calls_top .text-block a, #live-calls_top .first .text-block p, #publisher-lab .second-b .text-block .one-item p, #publisher-lab .second-b .text-block a, #publisher-lab p, #we-do .icons-block .one-icon-block h3,  #your-customer .info .v-1110 p, #real-demand-delivered .info .text p, #industries_top_p .text-block a, #industries_top_p .text-block p, #industries_top .text-block a, #industries_top .text-block p, #industries_services .industries_services h4, #ready_to_scale a, #ready_to_scale_p a{
     font-size: 15px;
   }
-  #managed-top .second .text-block .one p, #managed-top .text-block span, #live-leads-items .l-l-items .one-l-l p, #live-leads_top .text-block span, #live-calls_top .text-block p.sub, #live-calls_top .text-block span, #publisher-cases .use-cases .one-case .info p, #we-do .icons-block .one-icon-block p, #your-customer .info .v-1110 .buttons a, #industries .industries-text p, #industries .industries-items .one-item h4, footer .contacts-info .one p, footer .contacts-info .button-contact-us a, footer .menus-block .menus li, footer .menus-block .menus h5{
+  #contact-us .v-1110 .follow-us .follow p, #contact-us .v-1110 .info .one a, #contact-us .v-1110 .info .one p, #saas-items .saas-items-b .s-one-item p, #saas-top .text-block span, #managed-top .second .text-block .one p, #managed-top .text-block span, #live-leads-items .l-l-items .one-l-l p, #live-leads_top .text-block span, #live-calls_top .text-block p.sub, #live-calls_top .text-block span, #publisher-cases .use-cases .one-case .info p, #we-do .icons-block .one-icon-block p, #your-customer .info .v-1110 .buttons a, #industries .industries-text p, #industries .industries-items .one-item h4, footer .contacts-info .one p, footer .contacts-info .button-contact-us a, footer .menus-block .menus li, footer .menus-block .menus h5{
     font-size: 13px;
   }
   .one-icon-block .content h3{
     font-size: 19px;
   }
 }
+
+@media (max-width: 450px) {
+  #contact-us .v-1110{
+    margin: 0 5px;
+  }
+  #contact-us .contacts-info {
+    margin: 0 10px 30px 10px;
+  }
+  #contact-us .v-1110 .form-b .form .form-text {
+    max-width: 245px;
+  }
+  #contact-us .v-1110 .form-b .form .form-text #information {
+    margin: 15px 0 0 0;
+  }
+  #contact-us .v-1110 .form-b .form .form-text #information .one-input p {
+    margin-bottom: 5px;
+  }
+  #contact-us .v-1110 .form-b .form .form-text .title {
+    margin-top: 0;
+    margin-left: 0;
+  }
+  #contact-us .v-1110 .form-b .form .form-text #submit {
+    margin-top: 15px;
+  }
+  #contact-us .v-1110 .form-b .form .form-text #submit input {
+    height: 52px;
+  }
+}
+
 @media (max-width: 400px) {
+  #contact-us .v-1110 .info .one {
+    margin-bottom: 20px;
+  }
+  #contact-us .v-1110 .form-b {
+    position: relative;
+    overflow-x: hidden;
+  }
+  #contact-us .v-1110 .form-b .image{
+    margin-right: -30px;
+  }
+  #contact-us .v-1110 .form-b .form {
+    padding-right: 45px;
+  }
+  #saas-items {
+    margin: 50px 15px 10px 15px;
+  }
+  #saas-items .saas-items-b {
+    grid-column-gap: 15px;
+  }
+
+  #we-do-saas .icons-block .one-icon-block .icon img {
+    max-width: 60px;
+  }
+  #we-do-saas .icons-block .one-icon-block .icon {
+    height: 110px;
+    width: 110px;
+  }
   #publisher-cases .title h3, #publisher-cases .use-cases .one-case .info h3 {
     font-size: 16px;
   }
@@ -1045,16 +1267,57 @@
   #publisher-lab span, header .v-1110 .menu ul li, header .v-1110 .button a, .one-icon-block .content p, #industries_top .text-block span, #industries_top_p .text-block span, #industries_info .v-1110 .industries_info_text p.subtitle, #industries_services .industries_services p, #industries_info .v-1110 .icons-info .one-icon-info p{
     font-size: 12px;
   }
-  #managed-top .text-block h1, #live-leads-items h2, #live-leads_top .text-block h1, #live-calls_top .text-block h1,  #publisher-lab h1, #your-customer .info .v-1110 h1, h2, #how-we-do h2, #industries_top .text-block h1, #industries_top_p .text-block h1, #ready_to_scale h2, #ready_to_scale_p h2, #industries_info .v-1110 .industries_info_text h1, #industries_services h2{
+  #saas-items h2, #we-do-saas h2, #saas-top .text-block h1, #managed-top .text-block h1, #live-leads-items h2, #live-leads_top .text-block h1, #live-calls_top .text-block h1,  #publisher-lab h1, #your-customer .info .v-1110 h1, h2, #how-we-do h2, #industries_top .text-block h1, #industries_top_p .text-block h1, #ready_to_scale h2, #ready_to_scale_p h2, #industries_info .v-1110 .industries_info_text h1, #industries_services h2{
     font-size: 26px;
   }
-  #managed-top .second .text-block p.blue, #managed-top .text-block a, #managed-top .first .text-block p, #ready_to_scale_l a, #live-leads_top .text-block p, #live-leads_top .text-block a, #live-calls_top .text-block p, #live-calls_top .text-block a, #live-calls_top .first .text-block p, #publisher-lab .second-b .text-block .one-item p, #publisher-lab .second-b .text-block a, #publisher-lab p, #we-do .icons-block .one-icon-block h3,  #your-customer .info .v-1110 p, #real-demand-delivered .info .text p, #industries_top_p .text-block a, #industries_top_p .text-block p, #industries_top .text-block a, #industries_top .text-block p, #industries_services .industries_services h4, #ready_to_scale_p a, #ready_to_scale a{
+  #we-do-saas .icons-block .one-icon-block h3, #saas-top .text-block a, #saas-top .first .text-block p, #managed-top .second .text-block p.blue, #managed-top .text-block a, #managed-top .first .text-block p, #ready_to_scale_l a, #live-leads_top .text-block p, #live-leads_top .text-block a, #live-calls_top .text-block p, #live-calls_top .text-block a, #live-calls_top .first .text-block p, #publisher-lab .second-b .text-block .one-item p, #publisher-lab .second-b .text-block a, #publisher-lab p, #we-do .icons-block .one-icon-block h3,  #your-customer .info .v-1110 p, #real-demand-delivered .info .text p, #industries_top_p .text-block a, #industries_top_p .text-block p, #industries_top .text-block a, #industries_top .text-block p, #industries_services .industries_services h4, #ready_to_scale_p a, #ready_to_scale a{
     font-size: 14px;
   }
-  #managed-top .second .text-block .one p, #managed-top .text-block span, #live-leads-items .l-l-items .one-l-l p, #live-leads_top .text-block span, #live-calls_top .text-block p.sub, #live-calls_top .text-block span,  #publisher-cases .use-cases .one-case .info p, #we-do .icons-block .one-icon-block p, #your-customer .info .v-1110 .buttons a, #industries .industries-text p, #industries .industries-items .one-item h4, footer .contacts-info .one p, footer .contacts-info .button-contact-us a, footer .menus-block .menus li, footer .menus-block .menus h5{
+  #saas-items .saas-items-b .s-one-item p, #saas-top .text-block span, #managed-top .second .text-block .one p, #managed-top .text-block span, #live-leads-items .l-l-items .one-l-l p, #live-leads_top .text-block span, #live-calls_top .text-block p.sub, #live-calls_top .text-block span,  #publisher-cases .use-cases .one-case .info p, #we-do .icons-block .one-icon-block p, #your-customer .info .v-1110 .buttons a, #industries .industries-text p, #industries .industries-items .one-item h4, footer .contacts-info .one p, footer .contacts-info .button-contact-us a, footer .menus-block .menus li, footer .menus-block .menus h5{
     font-size: 12px;
   }
   .one-icon-block .content h3{
     font-size: 18px;
+  }
+}
+
+
+@media (max-width: 370px) {
+  #contact-us .v-1110 .form-b .form h3 {
+    font-size: 17px;
+  }
+  #contact-us .v-1110 .form-b .form {
+    padding-right: 40px;
+  }
+  #contact-us .v-1110 .form-b .form p.subtitle {
+    font-size: 13px;
+  }
+  #contact-us .v-1110 .form-b .form .form-text #submit input {
+    font-size: 15px;
+  }
+  #contact-us .v-1110 .form-b .form .form-text {
+    max-width: 215px;
+  }
+  #contact-us .v-1110 .form-b .form .form-text #information {
+    margin: 5px 0 0 0;
+  }
+  #contact-us .v-1110 .form-b .form .form-text p.title {
+    font-size: 11px;
+  }
+  #contact-us .v-1110 .form-b .form .form-text input {
+    font-size: 13px;
+  }
+  #contact-us .v-1110 .info {
+    margin: 0 7px;
+  }
+
+}
+@media (max-width: 340px) {
+  #contact-us .v-1110 .form-b .form .form-text #submit input {
+    height: 45px;
+  }
+  #contact-us .v-1110 .form-b .form .form-text input {
+    height: 36px;
+    font-size: 12px;
   }
 }
