@@ -48,9 +48,11 @@ header {
             color: #ffffff;
             padding: 28px 0;
             display: block;
+            transition: all 0.3s ease-in-out;
           }
           a:hover{
             color: #8CB0FF;
+            transition: all 0.3s ease-in-out;
           }
           ul:after{
             content: '';

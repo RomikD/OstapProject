@@ -1,0 +1,136 @@
+@import "mixins";
+@import "variables";
+
+header {
+  .v-1110{
+    .button{
+      a{
+        background: #FFFFFF;
+        border: 1px solid #FFFFFF;
+        box-shadow: 0px 2px 30px rgba(255, 255, 255, 0.5);
+        border-radius: 100px;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 1.4;
+        text-align: center;
+        color: #00196C;
+        width: 99px;
+        height: 43px;
+        display: flex;
+        text-decoration: none;
+        justify-content: center;
+        align-items: center;
+        transition: all 0.3s ease-in-out;
+      }
+    }
+  }
+}
+
+
+.s-v-button{
+  box-sizing: border-box;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 100px;
+  width: 169px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  color: #FFFFFF;
+  height: 48px;
+  transition: all 0.3s ease-in-out;
+}
+.s-v-button:hover{
+  border: 2px solid #B073FF!important;
+  box-shadow: 0px 2px 50px rgba(237, 134, 193, 0.6);
+  transition: all 0.3s ease-in-out;
+  background: #B073FF;
+  text-decoration: none;
+  color: #ffffff;
+}
+#submit {
+  input {
+    background: #B073FF;
+    border: none;
+    margin-right: 25px;
+    transition: all 0.3s ease-in-out;
+
+  }
+}
+#your-customer{
+  .info{
+    .v-1110{
+      .buttons{
+        a{
+          border: 2px solid #FFFFFF;
+          transition: all 0.3s ease-in-out;
+        }
+      }
+    }
+  }
+}
+.violet-button{
+      background: #B073FF;
+      box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+      border-radius: 100px;
+      font-family: 'Open Sans', sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 19px;
+      line-height: 140%;
+      text-align: center;
+      color: #FFFFFF;
+      text-decoration: none;
+      padding: 18px;
+      width: 216px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 37px;
+      transition: all 0.3s ease-in-out;
+
+}
+
+.violet-button:hover{
+  text-decoration: none;
+  color: #ffffff;
+  transition: all 0.3s ease-in-out;
+
+}
+footer {
+  .contacts-info{
+    .button-contact-us{
+      a{
+        width: 139px;
+        height: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #ffffff;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 1.6;
+        border: 2px solid #FFFFFF;
+        border-radius: 1000px;
+        text-decoration: none;
+        transition: all 0.3s ease-in-out;
+      }
+      a:hover{
+        text-decoration: none;
+        color: #00196C;
+        background: #ffffff;
+        box-shadow: 0px 2px 30px rgba(255, 255, 255, 0.5);
+      }
+    }
+  }
+}
+
+

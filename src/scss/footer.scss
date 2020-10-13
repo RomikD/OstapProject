@@ -48,6 +48,10 @@ footer {
           text-decoration: none;
           color: #FFFFFF;
         }
+        a:hover{
+          opacity: 0.8;
+          transition: all 0.3s ease-in-out;
+        }
       }
     }
     .contacts-info{

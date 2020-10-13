@@ -9,7 +9,7 @@
   justify-content: center;
   flex-direction: column;
   padding: 130px 0 100px 0;
-  background-image: url("../acetss/Vector 33.png");
+  background-image: url("../acetss/img/bg-img.png");
   background-repeat: no-repeat;
   background-size: cover;
   .first{
@@ -19,12 +19,8 @@
     margin-bottom: 155px;
     .text-block {
       p{
-        font-style: normal;
         font-weight: normal;
-        font-size: 19px;
-        line-height: 160%;
         color: #000000;
-        margin-bottom: 10px;
       }
     }
   }
@@ -77,70 +73,29 @@
       color: rgba(0, 0, 0, 0.5);
     }
     h1{
-      font-family: 'Open Sans', sans-serif;
-      font-style: normal;
-      font-weight: bold;
-      font-size: 51px;
       line-height: 109%;
       color: #000000;
       margin-top: 10px;
       margin-bottom: 34px;
     }
     p{
-      font-family: 'Open Sans', sans-serif;
-      font-style: normal;
       font-weight: 600;
-      font-size: 19px;
-      line-height: 160%;
       color: #407BFF;
       margin-bottom: 10px;
     }
     p.sub{
-      font-weight: normal;
-      font-size: 16px;
-      line-height: 1.4;
-      color: #000;
-    }
-    a{
-      background: #B073FF;
-      box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
-      border-radius: 100px;
-      font-family: 'Open Sans', sans-serif;
-      font-style: normal;
-      font-weight: bold;
-      font-size: 19px;
-      line-height: 140%;
-      text-align: center;
-      color: #FFFFFF;
-      text-decoration: none;
-      padding: 18px;
-      width: 216px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin-top: 37px;
 
+      font-size: 16px;
+      color: #000;
     }
   }
 }
 #ready_to_scale_p{
-  background-image: url("../acetss/Rectangle 140.png");
+  background-image: url("../acetss/img/Rectangle 140.png");
   padding: 74px 0;
   background-repeat: no-repeat;
   background-size: cover;
 
-  h2{
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 51px;
-    line-height: 130%;
-    text-align: center;
-    color: #FFFFFF;
-    margin: 0 auto;
-    padding: 0 15px;
-    max-width: 920px;
-  }
   div{
     text-align: center;
     display: flex;
