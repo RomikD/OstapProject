@@ -1,13 +1,14 @@
 @import "mixins";
 @import "variables";
 
+
 header {
   .v-1110{
     .button{
       a{
-        background: #FFFFFF;
-        border: 1px solid #FFFFFF;
-        box-shadow: 0px 2px 30px rgba(255, 255, 255, 0.5);
+        border: 2px solid #FFFFFF;
+        box-sizing: border-box;
+        //box-shadow: 0px 2px 30px rgba(255, 255, 255, 0.5);
         border-radius: 100px;
         font-family: Open Sans;
         font-style: normal;
@@ -15,7 +16,7 @@ header {
         font-size: 16px;
         line-height: 1.4;
         text-align: center;
-        color: #00196C;
+        color: #fff;
         width: 99px;
         height: 43px;
         display: flex;
@@ -48,6 +49,10 @@ header {
   transition: all 0.3s ease-in-out;
 }
 .s-v-button:hover{
+  text-decoration: none;
+  color: #ffffff;
+}
+.s-v-button.active{
   border: 2px solid #B073FF!important;
   box-shadow: 0px 2px 50px rgba(237, 134, 193, 0.6);
   transition: all 0.3s ease-in-out;

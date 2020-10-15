@@ -1,0 +1,33 @@
+#breadcrumbs{
+  display: flex;
+  width: 100%;
+  margin: 34px 0 13px 0;
+  a{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+    /* identical to box height, or 26px */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #7796DB;
+  }
+  span{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 160%;
+    /* identical to box height, or 48px */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0 5px;
+    color: #7796DB;
+  }
+}

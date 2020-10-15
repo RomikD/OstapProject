@@ -5,13 +5,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 80px 0 20px 0;
-
+  padding: 0 0 20px 0;
+  flex-wrap: wrap;
+  .img-block{
+    flex: 1;
+  }
   svg, img{
     max-width: none;
   }
   .text-block{
     padding-left: 80px;
+    flex: 2;
 
     span{
       font-family: 'Open Sans', sans-serif;

@@ -1,2 +1,7 @@
 import './scss/index.scss'
-import 'bootstrap';
+import * as $ from 'jquery'
+import 'bootstrap'
+
+$('#your-customer a').hover(function() {
+    $('#your-customer a').toggleClass('active');
+});
