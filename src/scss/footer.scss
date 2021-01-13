@@ -43,14 +43,18 @@ footer {
         opacity: 0.6;
         text-align: left;
         list-style: none;
-
+        &:hover{
+          opacity: 1;
+        }
         a{
           text-decoration: none;
           color: #FFFFFF;
         }
         a:hover{
-          opacity: 0.8;
+          color: #FFFFFF;
+          text-decoration: underline;
           transition: all 0.3s ease-in-out;
+          opacity: 1;
         }
       }
     }

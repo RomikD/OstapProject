@@ -10,19 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Dimondevelop/megaCourseVlad.git"
+    "url": "git+https://github.com/RomikD/OstapProject.git"
   },
   "keywords": [
     "js",
     "JavaScript",
     "lesson"
   ],
-  "author": "PetrashchukDmytro <dimon.develop@gmail.com>",
+  "author": "RomanDudnyk <dudnyk.rb@gmail.com>",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Dimondevelop/megaCourseVlad/issues"
-  },
-  "homepage": "https://github.com/Dimondevelop/megaCourseVlad#readme",
   "private": true,
   "browserslist": "> 0.25%, not dead",
   "devDependencies": {

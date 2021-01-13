@@ -10,6 +10,8 @@
     padding: 50px 0 370px 0;
     background: #EBF1FF;
     min-width: 463px;
+    position: sticky;
+    top: 0;
 
     .nav-tabs{
       border: none;
@@ -18,14 +20,16 @@
       margin-left: auto;
 
       li {
-        padding: 23px 25px 23px 30px;
+        cursor: pointer;
       }
       li.active {
-        background: #FFFFFF;
-        border-radius: 100px 0 0 100px;
+
       }
       li.active a {
         opacity: unset;
+        border-radius: 100px 0 0 100px;
+        background: #FFFFFF;
+
       }
       li a {
         text-decoration: none;
@@ -36,6 +40,10 @@
         color: #000000;
         text-align: left;
         opacity: 0.6;
+        display: block;
+        padding: 23px 25px 23px 30px;
+
+
       }
     }
   }

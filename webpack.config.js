@@ -32,7 +32,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HTMLWebpackPlugin({
-      template: 'index.html',
+      template: 'privacyPolicy.html',
       minify: {
         removeComments: isProd,
         collapseWhitespace: isProd,

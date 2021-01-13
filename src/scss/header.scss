@@ -17,13 +17,14 @@ header {
     justify-content: space-between;
     align-items: center;
 
-    .logo{
+    .logo a{
       font-style: normal;
       font-weight: bold;
       font-size: 25px;
       line-height: 1.4;
       color: #FFFFFF;
       font-family: 'Quicksand', sans-serif;
+      text-decoration: none;
     }
     .toggle{
       display: none;
